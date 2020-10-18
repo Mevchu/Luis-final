@@ -1,5 +1,6 @@
 $font-family: 'Asap', sans-serif;
-$primary-color: #4d4d4d;
+$main-color: #4d4d4d;
+header {
 
 
 header {
@@ -16,6 +17,9 @@ header {
     color: #4d4d4d;
     margin-top: 260px;
   }
+}
+  .service{
+  background-color: #f6f6f6;
 }
 .footer{
   background-image: url("../images/footer-bg_02.png");
