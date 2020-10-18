@@ -1,28 +1,17 @@
-.h3 .h2 {
-  text-transform: uppercase; }
-
 header .bg {
   background-image: url("../images/bg_01.png");
   background-size: cover;
   height: 100vh;
   text-align: center; }
-header .navbar {
-  text-transform: uppercase; }
 header .h1 {
   font-family: asap medium;
   font-size: 90px;
   color: #4d4d4d;
   margin-top: 260px; }
-header .left_header {
-  align-content: center; }
 
-.about_me .btn {
-  text-transform: uppercase; }
-
-.service {
-  text-align: center; }
-
-.my-skills {
-  text-align: center; }
+.footer {
+  background-image: url("../images/footer-bg_02.png");
+  background-size: cover;
+  height: 100vh; }
 
 /*# sourceMappingURL=style_preproc.css.map */

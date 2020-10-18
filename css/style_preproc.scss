@@ -1,40 +1,26 @@
 $font-family: 'Asap', sans-serif;
 $primary-color: #4d4d4d;
-.h3 .h2{
-  text-transform: uppercase;
-}
-header{
+
+
+header {
   .bg {
     background-image: url("../images/bg_01.png");
     background-size: cover;
     height: 100vh;
     text-align: center;
   }
-  .navbar{
-text-transform: uppercase;
-}
+
   .h1 {
     font-family: asap medium;
     font-size: 90px;
     color: #4d4d4d;
     margin-top: 260px;
   }
-  .left_header{
-    align-content: center;
-  }
+}
+.footer{
+  background-image: url("../images/footer-bg_02.png");
+  background-size: cover;
+  height: 100vh;
+
 }
 
-
-.about_me{
-
-
-  .btn{
-    text-transform: uppercase;
-  }
-}
-.service{
-  text-align: center;
-}
-.my-skills{
-  text-align: center;
-}
