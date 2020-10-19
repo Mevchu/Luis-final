@@ -9,15 +9,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css.map">
-    <link rel="stylesheet" href="css/style_preproc.scss">
-  </head>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style_preproc.css">
+
+</head>
 <body>
 
 <header class="header">
     <section class="bg">
     <nav class="navbar navbar-default">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
+
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
@@ -51,13 +54,10 @@
         </div>
     </div>
         <div class="col-sm-6">
-        <div>
            <img src="images/Man_03.png">
-        </div>
     </div>
 </div>
 </div>
-    </div>
     </section>
 </header>
 <section class="about_me">
@@ -128,16 +128,18 @@
 </section>
 <section>
     <div class="container">
-        <div class="row text-center">
-<div class="portfolio">
+        <div class="row text-center portfolio">
     <h4>Portfolio</h4>
     <h3 class="text-uppercase">Portfolio</h3>
+            <div class="container">
+                <div class="container-row">
     <div class="col-sm-4">
         <img src="images/port1_28.png">     </div>
     <div class="col-sm-4">
         <img src="images/port2_30.png"></div>
     <div class="col-sm-4">
         <img src="images/port3_32.png">     </div>
+                </div></div>
     <div class="container">
         <div class="container-row">
                 <div class="col-sm-4">
@@ -148,21 +150,79 @@
                 <img src="images/port6_39.png"></div>
         </div>
     </div>
-</div>
+            <button class="text-uppercase">load more</button>
         </div>
-</div>
-</div>
+        </div>
+</section>
+<section class="testimonials">
+    <div class="container">
+        <div class="row text-center">
+
+        <h4 class="text-uppercase">Testimonials</h4>
+        <h3 class="text-uppercase">Testimonials</h3>
+
+            <div class="carousel col-sm-10">
+                <div class="owl-carousel">
+                    <div class="row">
+                        <div class="col-sm-3 carousel_img align-self-center">
+                            <img src="images/testim-photo_44.png">
+                        </div>
+                        <div class="col-sm-9">
+                            <h4 class="text-uppercase">Limara Tusi</h4>
+                            <p class="position">CEO, RanDOM COMPANY</p>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                                commodo
+                                ligula eget dolor.
+                                Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                ridiculus mus. Donec quam felis, ultricies nec.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 carousel_img align-self-center">
+                            <img src="images/testim-photo_44.png">
+                        </div>
+                        <div class="col-sm-9">
+                            <h4 class="text-uppercase">Limara Tusi</h4>
+                            <p class="position">CEO, RanDOM COMPANY</p>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                                commodo
+                                ligula eget dolor.
+                                Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                ridiculus mus. Donec quam felis, ultricies nec.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 carousel_img align-self-center">
+                            <img src="images/testim-photo_44.png">                        </div>
+                        <div class="col-sm-9">
+                            <h4 class="text-uppercase">Limara Tusi</h4>
+                            <p class="position">CEO, RanDOM COMPANY</p>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                                commodo
+                                ligula eget dolor.
+                                Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                ridiculus mus. Donec quam felis, ultricies nec.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </section>
+
 <section>
     <div class="container">
         <div class="row text-center">
-    <div class="testimonials">
-        <h4 class="text-uppercase">Testimonials</h4>
-        <h3 class="text-uppercase">Testimonials</h3>
+    <div class="sayhello">
+        <h4 class="text-uppercase">Say hello</h4>
+        <h3 class="text-uppercase">Say hello!</h3>
     </div>
-        </div>
-    </div>
+        </div>    </div>
+
+
+
+
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -201,37 +261,6 @@
 </section>
 
 
-<section>
-    <div class="container">
-        <div class="row text-center">
-    <div class="sayhello">
-        <h4 class="text-uppercase">Say hello</h4>
-        <h3 class="text-uppercase">Say hello!</h3>
-    </div>
-        </div>    </div>
-
-<section>
-    <div class="container">
-        <div class="row text-center">
-            <h2 class="col-sm-12">the team</h2>
-            <div class="col-sm-6 col-md-3">
-                <div class="team-logo">
-                    <img src="">
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="team-logo">
-                    <img src="#">
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="team-logo">
-                    <img src="#">
-                </div>
-            </div>
-
-        </div>
-</section>
 
 <footer>
     <section>
