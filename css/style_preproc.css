@@ -1,17 +1,41 @@
-header .bg {
-  background-image: url("../images/bg_01.png");
-  background-size: cover;
-  height: 100vh;
-  text-align: center; }
-header .h1 {
-  font-family: asap medium;
-  font-size: 90px;
-  color: #4d4d4d;
-  margin-top: 260px; }
+/*
+Error: Invalid CSS after "header ": expected selector or at-rule, was "{"
+        on line 11 of style_preproc.scss
 
-.footer {
-  background-image: url("../images/footer-bg_02.png");
-  background-size: cover;
-  height: 100vh; }
+6: 
+7: $font-family: 'Asap', sans-serif;
+8: $main-color: #4d4d4d
+9: 
+10: 
+11: header {
+12:   .bg {
+13:     background-image: url("../images/bg_01.png");
+14:     background-size: cover;
+15:     height: 100vh;
+16:     text-align: center;
 
-/*# sourceMappingURL=style_preproc.css.map */
+Backtrace:
+style_preproc.scss:11
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:42:in `parse'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin.rb:82:in `update_stylesheets'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:338:in `watch_or_update'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/bin/scss:13:in `<top (required)>'
+C:/Ruby26-x64/bin/scss:23:in `load'
+C:/Ruby26-x64/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"header \": expected selector or at-rule, was \"{\"\A         on line 11 of style_preproc.scss\A \A 6: \A 7: $font-family: 'Asap', sans-serif;\A 8: $main-color: #4d4d4d\A 9: \A 10: \A 11: header {\A 12:   .bg {\A 13:     background-image: url(\"../images/bg_01.png\");\A 14:     background-size: cover;\A 15:     height: 100vh;\A 16:     text-align: center;"; }
